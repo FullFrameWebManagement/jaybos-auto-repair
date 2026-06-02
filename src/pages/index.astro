@@ -1,0 +1,251 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+<Layout
+  title="Auto Repair & Motorcycle Repair | Jaybo's Auto Repair & Metal Fabrication | Winthrop ME"
+  description="Jaybo's Auto Repair & Metal Fabrication provides auto repair, motorcycle repair, welding, and custom fabrication in Winthrop, Monmouth, Manchester, and Readfield, Maine. Call (207) 485-4421."
+>
+  <Header />
+
+  <!-- Hero -->
+  <section style="background-color:#0A0A0A; background-image:url('/images/shop-1.jpg'); background-size:cover; background-position:center; background-blend-mode:multiply; min-height:580px; display:flex; align-items:center;">
+    <div class="container-wide" style="padding-top:80px; padding-bottom:80px;">
+      <p style="color:#E87722; font-family:'Barlow Condensed',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; margin:0 0 16px;">Winthrop &bull; Monmouth &bull; Manchester &bull; Readfield, Maine</p>
+      <h1 style="font-family:'Barlow Condensed',sans-serif; font-size:clamp(38px,6vw,68px); font-weight:700; color:white; margin:0 0 20px; line-height:1.05; max-width:800px;">Trusted Auto Repair &amp; Motorcycle Repair in Central Maine</h1>
+      <p style="color:#D1D5DB; font-size:19px; font-family:'Barlow',sans-serif; margin:0 0 36px; max-width:640px; line-height:1.65;">At Jaybo's, we deliver dependable auto repair, motorcycle repair, welding, and custom fabrication — with honest workmanship, fair pricing, and reliable results.</p>
+      <div style="display:flex; gap:16px; flex-wrap:wrap;">
+        <a href="tel:+12074854421" class="btn-primary" style="font-size:19px;">Call (207) 485-4421</a>
+        <a href="#services" class="btn-outline" style="font-size:18px;">View Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro -->
+  <section style="background-color:#111111; padding:72px 0;">
+    <div class="container-wide" style="max-width:800px;">
+      <p style="color:#D1D5DB; font-size:18px; line-height:1.8; margin:0;">
+        Whether your vehicle needs routine maintenance, major engine repairs, brake service, suspension work, motorcycle repairs, or custom fabrication, we take pride in delivering honest workmanship, fair pricing, and reliable results for customers throughout Winthrop, Monmouth, Manchester, and Readfield, Maine.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" style="background-color:#0A0A0A; padding:88px 0;">
+    <div class="container-wide">
+      <p style="color:#E87722; font-family:'Barlow Condensed',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; margin:0 0 12px; text-align:center;">What We Do</p>
+      <h2 style="font-family:'Barlow Condensed',sans-serif; font-size:clamp(32px,5vw,46px); font-weight:700; color:white; text-align:center; margin:0 0 16px;">Complete Auto &amp; Motorcycle Repair Services</h2>
+      <p style="color:#9CA3AF; font-size:17px; line-height:1.75; max-width:680px; margin:0 auto 56px; text-align:center;">We service cars, trucks, motorcycles, trailers, and equipment with a full range of repair and maintenance solutions.</p>
+
+      <!-- Auto Repair -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:28px; margin-bottom:28px;">
+        <div style="background-color:#1E1E1E; border-top:4px solid #E87722; border-radius:4px; padding:36px 32px;">
+          <h3 style="font-family:'Barlow Condensed',sans-serif; font-size:28px; font-weight:700; color:white; margin:0 0 16px;">Auto Repair</h3>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Engine diagnostics and repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Motor and engine replacement
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Brake repairs and replacements
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Exhaust system repair and installation
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Suspension and shock repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Steering system repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Oil changes and maintenance services
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Trailer repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Restoration and select paint work
+            </li>
+          </ul>
+        </div>
+
+        <!-- Motorcycle Repair -->
+        <div id="motorcycle" style="background-color:#1E1E1E; border-top:4px solid #E87722; border-radius:4px; padding:36px 32px;">
+          <h3 style="font-family:'Barlow Condensed',sans-serif; font-size:28px; font-weight:700; color:white; margin:0 0 12px;">Motorcycle Repair</h3>
+          <p style="color:#9CA3AF; font-size:15px; line-height:1.7; margin:0 0 16px;">Motorcycles require specialized attention and experience. Whether you ride for work, recreation, or weekend adventures, we keep your bike road-ready.</p>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Motorcycle diagnostics
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Brake repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Exhaust installation
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Engine repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Suspension work
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Custom fabrication and welding
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              General maintenance
+            </li>
+          </ul>
+        </div>
+
+        <!-- Welding & Fabrication -->
+        <div id="fabrication" style="background-color:#1E1E1E; border-top:4px solid #E87722; border-radius:4px; padding:36px 32px;">
+          <h3 style="font-family:'Barlow Condensed',sans-serif; font-size:28px; font-weight:700; color:white; margin:0 0 12px;">Welding &amp; Metal Fabrication</h3>
+          <p style="color:#9CA3AF; font-size:15px; line-height:1.7; margin:0 0 16px;">Need custom welding or fabrication work? Built tough. Built right.</p>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Automotive projects
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Trailer repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Equipment repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Custom fabrication projects
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Structural repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:10px; color:#9CA3AF; font-size:15px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="8" cy="8" r="8" fill="#E87722"/><path d="M4 8.5L6.5 11L12 5.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Metal modifications
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <p style="color:#9CA3AF; font-size:16px; text-align:center; margin:16px 0 0; font-style:italic;">Our goal is simple: keep your vehicle safe, reliable, and running at its best.</p>
+    </div>
+  </section>
+
+  <!-- Shop Photos -->
+  <section style="background-color:#0A0A0A; padding:4px 0 0;">
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:4px;">
+      <img src="/images/shop-2.jpg" alt="Jaybo's Auto Repair shop" style="width:100%; height:280px; object-fit:cover;" />
+      <img src="/images/shop-3.jpg" alt="Jaybo's service bay" style="width:100%; height:280px; object-fit:cover;" />
+      <img src="/images/shop-4.jpg" alt="Jaybo's Auto Repair and Metal Fabrication" style="width:100%; height:280px; object-fit:cover;" />
+    </div>
+  </section>
+
+  <!-- Why Choose Jaybo's -->
+  <section style="background-color:#111111; padding:88px 0;">
+    <div class="container-wide">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:64px; align-items:start;">
+        <div>
+          <p style="color:#E87722; font-family:'Barlow Condensed',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; margin:0 0 12px;">Why Jaybo's</p>
+          <h2 style="font-family:'Barlow Condensed',sans-serif; font-size:clamp(32px,5vw,44px); font-weight:700; color:white; margin:0 0 24px; line-height:1.1;">Honest Service from a Local Maine Shop</h2>
+          <p style="color:#9CA3AF; font-size:17px; line-height:1.75; margin:0 0 20px;">When your vehicle needs work, you deserve straight answers and fair prices. At Jaybo's, we treat every customer the way we'd want to be treated — no runaround, no surprise bills, just solid mechanical work done right.</p>
+          <p style="color:#9CA3AF; font-size:17px; line-height:1.75; margin:0;">From a quick oil change to a full engine rebuild or a custom fabrication project, Jaybo's delivers quality workmanship you can count on throughout central Maine.</p>
+        </div>
+        <div>
+          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:18px;">
+            <li style="display:flex; align-items:center; gap:16px; color:white; font-size:19px; font-family:'Barlow Condensed',sans-serif; font-weight:600; letter-spacing:0.02em;">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="11" cy="11" r="11" fill="#E87722"/><path d="M6 11.5L9.5 15L16 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Honest and dependable service
+            </li>
+            <li style="display:flex; align-items:center; gap:16px; color:white; font-size:19px; font-family:'Barlow Condensed',sans-serif; font-weight:600; letter-spacing:0.02em;">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="11" cy="11" r="11" fill="#E87722"/><path d="M6 11.5L9.5 15L16 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Fair and transparent pricing
+            </li>
+            <li style="display:flex; align-items:center; gap:16px; color:white; font-size:19px; font-family:'Barlow Condensed',sans-serif; font-weight:600; letter-spacing:0.02em;">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="11" cy="11" r="11" fill="#E87722"/><path d="M6 11.5L9.5 15L16 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Experienced mechanical repairs
+            </li>
+            <li style="display:flex; align-items:center; gap:16px; color:white; font-size:19px; font-family:'Barlow Condensed',sans-serif; font-weight:600; letter-spacing:0.02em;">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="11" cy="11" r="11" fill="#E87722"/><path d="M6 11.5L9.5 15L16 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Skilled welding and fabrication
+            </li>
+            <li style="display:flex; align-items:center; gap:16px; color:white; font-size:19px; font-family:'Barlow Condensed',sans-serif; font-weight:600; letter-spacing:0.02em;">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="11" cy="11" r="11" fill="#E87722"/><path d="M6 11.5L9.5 15L16 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Auto and motorcycle specialists
+            </li>
+            <li style="display:flex; align-items:center; gap:16px; color:white; font-size:19px; font-family:'Barlow Condensed',sans-serif; font-weight:600; letter-spacing:0.02em;">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="11" cy="11" r="11" fill="#E87722"/><path d="M6 11.5L9.5 15L16 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Local Maine business
+            </li>
+            <li style="display:flex; align-items:center; gap:16px; color:white; font-size:19px; font-family:'Barlow Condensed',sans-serif; font-weight:600; letter-spacing:0.02em;">
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;"><circle cx="11" cy="11" r="11" fill="#E87722"/><path d="M6 11.5L9.5 15L16 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Quality workmanship you can trust
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- More Shop Photos -->
+  <section style="background-color:#0A0A0A; padding:0;">
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:4px;">
+      <img src="/images/shop-5.jpg" alt="Jaybo's shop interior" style="width:100%; height:220px; object-fit:cover;" />
+      <img src="/images/shop-6.jpg" alt="Vehicle repair at Jaybo's" style="width:100%; height:220px; object-fit:cover;" />
+      <img src="/images/shop-7.jpg" alt="Metal fabrication at Jaybo's" style="width:100%; height:220px; object-fit:cover;" />
+      <img src="/images/shop-8.jpg" alt="Jaybo's Auto Repair exterior" style="width:100%; height:220px; object-fit:cover;" />
+    </div>
+  </section>
+
+  <!-- Skid Steer Coming Soon -->
+  <section id="skidsteer" style="background-color:#1E1E1E; padding:88px 0;">
+    <div class="container-wide" style="text-align:center;">
+      <p style="color:#E87722; font-family:'Barlow Condensed',sans-serif; font-size:15px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; margin:0 0 12px;">Coming Soon</p>
+      <h2 style="font-family:'Barlow Condensed',sans-serif; font-size:clamp(30px,5vw,44px); font-weight:700; color:white; margin:0 0 20px;">Skid Steer &amp; Ground Work Services</h2>
+      <p style="color:#9CA3AF; font-size:17px; line-height:1.75; max-width:640px; margin:0 auto 48px;">Jaybo's Auto Repair &amp; Metal Fabrication will soon offer skid steer and ground work services throughout Winthrop, Monmouth, Manchester, and Readfield.</p>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:16px; max-width:840px; margin:0 auto;">
+        <div style="background-color:#111111; border:1px solid #333333; border-left:3px solid #E87722; padding:14px 20px; border-radius:4px; color:white; font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:600; text-align:left;">Driveway grading</div>
+        <div style="background-color:#111111; border:1px solid #333333; border-left:3px solid #E87722; padding:14px 20px; border-radius:4px; color:white; font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:600; text-align:left;">Property cleanup</div>
+        <div style="background-color:#111111; border:1px solid #333333; border-left:3px solid #E87722; padding:14px 20px; border-radius:4px; color:white; font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:600; text-align:left;">Brush removal</div>
+        <div style="background-color:#111111; border:1px solid #333333; border-left:3px solid #E87722; padding:14px 20px; border-radius:4px; color:white; font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:600; text-align:left;">Material moving</div>
+        <div style="background-color:#111111; border:1px solid #333333; border-left:3px solid #E87722; padding:14px 20px; border-radius:4px; color:white; font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:600; text-align:left;">Ground leveling</div>
+        <div style="background-color:#111111; border:1px solid #333333; border-left:3px solid #E87722; padding:14px 20px; border-radius:4px; color:white; font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:600; text-align:left;">Site preparation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section id="contact" style="background-color:#E87722; padding:88px 0; text-align:center;">
+    <div class="container-wide">
+      <h2 style="font-family:'Barlow Condensed',sans-serif; font-size:clamp(32px,5vw,48px); font-weight:700; color:white; margin:0 0 16px;">Contact Jaybo's Auto Repair &amp; Metal Fabrication</h2>
+      <p style="color:white; font-size:17px; margin:0 0 8px; opacity:0.95;">Call today to schedule service or request an estimate.</p>
+      <p style="color:white; font-size:16px; margin:0 0 40px; opacity:0.88;">Proudly serving Winthrop, Monmouth, Manchester, and Readfield, Maine.</p>
+      <a href="tel:+12074854421" style="background-color:white; color:#E87722; padding:20px 56px; border-radius:4px; font-family:'Barlow Condensed',sans-serif; font-size:36px; font-weight:700; display:inline-block; letter-spacing:0.02em;">(207) 485-4421</a>
+    </div>
+  </section>
+
+  <Footer />
+</Layout>
